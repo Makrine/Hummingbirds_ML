@@ -244,7 +244,7 @@ public class HummingbirdAgent : Agent
     /// <summary>
     /// Resume the agents movement and actions
     /// </summary>
-    public void Unfreeze()
+    public void UnfreezeAgent()
     {
         Debug.Assert(trainingMode == false, "Freeze/Unfreeze not supported in training");
         frozen = false;
